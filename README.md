@@ -12,3 +12,11 @@ The great way to use JSON, HTTP Client to build a weather application. But this 
 4. Once you sign in, choose API keys.
 
 5. Copy the API key then paste the API key to the placeholder YOUR_KEY_HERE in OpenWeatherMapProxy.cs
+
+## How to get the application URL and paste for Periodic update
+
+1. Clone or download the WeatherService repository.
+
+2. Publish your Web Project.
+
+3. Paste the published Web Project URL instead of localhost/Weather in MainPage.xaml.cs.
