@@ -20,3 +20,7 @@ The great way to use JSON, HTTP Client to build a weather application. But this 
 2. Publish your Web Project.
 
 3. Paste the published Web Project URL instead of localhost/Weather in MainPage.xaml.cs.
+
+## Use Live Tiles Templates in Local App
+
+1. live-tiles-local branch creates a background task and use Live Tile Templates in Local App so you don't need to web application.
