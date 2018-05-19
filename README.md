@@ -16,3 +16,5 @@ The great way to use JSON, HTTP Client to build a weather application. But this 
 ## Use Live Tiles Templates in Local App
 
 1. live-tiles-local branch creates a background task and use Live Tile Templates in Local App so you don't need to web application.
+
+2. If you want to get support, click on this <a href="https://docs.microsoft.com/en-us/windows/uwp/launch-resume/update-a-live-tile-from-a-background-task">link</a>.
