@@ -6,25 +6,17 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Loaded="Page_Loaded">
-    <Page.TopAppBar>
-        <CommandBar>
-            <AppBarButton Label="Refresh" Icon="Refresh" Click="Page_Loaded"/>
-            <CommandBar.SecondaryCommands>
-                <AppBarButton Tag="https://openweathermap.org/" Click="AppBarButton_Click" Label="Visit openweathermap.org"/>
-                <AppBarButton Tag="https://openweathermap.org/api" Click="AppBarButton_Click" Label="View openweathermap.org APIs"/>
-            </CommandBar.SecondaryCommands>
-        </CommandBar>
-    </Page.TopAppBar>
-    <Grid Background="HotPink">
-        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-            <Image Name="ResultImage" Width="200" Height="200"/>
+    >
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Name="MainStackPanel" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Image Name="ResultImage" Height="200" Width="200"/>
             <TextBlock FontSize="52" Name="TempTextBlock"/>
-            <TextBlock FontSize="36" Name="DescriptionTextBlock" TextWrapping="WrapWholeWords"/>
+            <TextBlock FontSize="36" Name="DescriptionTextBlock"/>
             <TextBlock FontSize="36" Name="LocationTextBlock"/>
         </StackPanel>
         <StackPanel Name="ErrorStackPanel" Visibility="Collapsed" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <TextBlock Text="Unable to get weather at this time" FontSize="36" TextWrapping="WrapWholeWords"/>
+            <TextBlock FontSize="36" Text="Unable to get weather at this time"/>
         </StackPanel>
     </Grid>
 </Page>

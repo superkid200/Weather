@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>E:\UWPWeather\UWPWeather\Assets\02d.png</Source>
+    <SmallTileSource>E:\UWPWeather\UWPWeather\Assets\02d.png</SmallTileSource>
+    <MediumTileSource>E:\UWPWeather\UWPWeather\Assets\02d.png</MediumTileSource>
+    <WideTileSource>E:\UWPWeather\UWPWeather\Assets\02d.png</WideTileSource>
+    <LargeTileSource>E:\UWPWeather\UWPWeather\Assets\02d.png</LargeTileSource>
+    <AppIconSource>E:\UWPWeather\UWPWeather\Assets\02d.png</AppIconSource>
+    <SplashScreenSource>E:\UWPWeather\UWPWeather\Assets\02d.png</SplashScreenSource>
+    <PackageLogoSource>E:\UWPWeather\UWPWeather\Assets\02d.png</PackageLogoSource>
+  </PropertyGroup>
+</Project>

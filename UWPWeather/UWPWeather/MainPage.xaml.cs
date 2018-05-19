@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.ApplicationModel.Background;
+using Windows.Devices.Geolocation;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -11,11 +13,8 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
-using UWPWeather.Models;
 using Windows.UI.Xaml.Media.Imaging;
-using Windows.UI.Notifications;
-using System.Diagnostics;
+using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -26,46 +25,64 @@ namespace UWPWeather
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        Geolocator locator;
+        Geoposition position;
         public MainPage()
         {
             this.InitializeComponent();
+            
+        }
+        protected override async void OnNavigatedTo(NavigationEventArgs e)
+        {
+            if(await BackgroundExecutionManager.RequestAccessAsync() == BackgroundAccessStatus.AllowedSubjectToSystemPolicy ||
+                await BackgroundExecutionManager.RequestAccessAsync() == BackgroundAccessStatus.AlwaysAllowed)
+            {
+                foreach(var task in BackgroundTaskRegistration.AllTasks)
+                {
+                    if(task.Value.Name == "WeatherBackgroundTask")
+                    {
+                        task.Value.Unregister(true);
+                    }
+                }
+                BackgroundTaskBuilder builder = new BackgroundTaskBuilder();
+                builder.Name = "WeatherBackgroundTask";
+                builder.TaskEntryPoint = "BackgroundTasks.WeatherBackgroundTask";
+                builder.SetTrigger(new TimeTrigger(30, false));
+                builder.Register();
+            }
+            if(await Geolocator.RequestAccessAsync() == GeolocationAccessStatus.Allowed)
+            {
+                locator = new Geolocator();
+                position = await locator.GetGeopositionAsync();
+                UpdateWeather(position);
+            }
         }
 
-        private async void Page_Loaded(object sender, RoutedEventArgs e)
+        public async void UpdateWeather(Geoposition position)
         {
             try
-            {
-                ErrorStackPanel.Visibility = Visibility.Collapsed;
-                var position = await LocationManager.GetPosition();
-                var latitude = position.Latitude;
-                var longitude = position.Longitude;
-                var myWeather = await OpenWeatherMapProxy.GetWeather(latitude, longitude);
+            { 
+                var myWeather = await OpenWeatherMapProxy.GetWeather(position.Coordinate.Latitude,
+    position.Coordinate.Longitude);
+                ResultImage.Source = new BitmapImage(new Uri(
+                    string.Format("ms-appx:///Assets/Weather/{0}.png", myWeather.weather[0].icon)));
                 TempTextBlock.Text = myWeather.main.temp.ToString();
                 DescriptionTextBlock.Text = myWeather.weather[0].description;
                 LocationTextBlock.Text = myWeather.name;
-                ResultImage.Source = new BitmapImage(new Uri(String.Format("ms-appx:///Assets/Weather/{0}.png", myWeather.weather[0].icon)));
-                var updater = TileUpdateManager.CreateTileUpdaterForApplication();
-		//WARNING: Test code
-		//The application URL must be your published URL
-                var url = String.Format("http://localhost/Weather/?lat={0}&lon={1}", latitude, longitude);
-                var tileContent = new Uri(url);
-                updater.StartPeriodicUpdate(tileContent, PeriodicUpdateRecurrence.HalfHour);
+                ErrorStackPanel.Visibility = Visibility.Collapsed;
+                MainStackPanel.Visibility = Visibility.Visible;
             }
             catch
             {
-                ErrorStackPanel.Visibility = Visibility.Visible;
+                await Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+                {
+                    MainStackPanel.Visibility = Visibility.Collapsed;
+                    ErrorStackPanel.Visibility = Visibility.Visible;
+                });
+
             }
+            
         }
 
-        private async void AppBarButton_Click(object sender, RoutedEventArgs e)
-        {
-            var uri = new Uri(((AppBarButton)sender).Tag.ToString());
-            var success = await Windows.System.Launcher.LaunchUriAsync(uri);
-            if(success) { Debug.WriteLine("Navigation completed"); }
-            else
-            {
-                Debug.WriteLine("Navigation failed");
-            }
-        }
     }
 }

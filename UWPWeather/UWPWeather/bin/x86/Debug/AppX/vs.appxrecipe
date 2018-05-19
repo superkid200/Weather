@@ -8,9 +8,9 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <PackageIdentityName>898bfd85-3b91-4854-b27a-32977952c615</PackageIdentityName>
+    <PackageIdentityName>75f89e17-0a3e-4833-bcce-e7abc27a1fd4</PackageIdentityName>
     <PackageIdentityPublisher>CN=minh3</PackageIdentityPublisher>
-    <IntermediateOutputPath>E:\UWPWeather\UWPWeather\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>e:\UWPWeather\UWPWeather\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,26 +18,26 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>E:\UWPWeather\UWPWeather\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>75CF03589A25FE4670BE0452ED7B1AE02DA30C01F78C04E3D7A2B5100FD9125E</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>898bfd85-3b91-4854-b27a-32977952c615_1.0.0.0_x86__tqm640ggdzf82</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>898bfd85-3b91-4854-b27a-32977952c615_tqm640ggdzf82!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>898bfd85-3b91-4854-b27a-32977952c615</RegisteredPackageID>
+    <LayoutDir>e:\UWPWeather\UWPWeather\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>32BF04EA5F2AEEEA87797B61D437063D27C5E5F76F928298A096F98EBAE6C3E7</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>75f89e17-0a3e-4833-bcce-e7abc27a1fd4_1.0.0.0_x86__tqm640ggdzf82</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>75f89e17-0a3e-4833-bcce-e7abc27a1fd4_tqm640ggdzf82!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>75f89e17-0a3e-4833-bcce-e7abc27a1fd4</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=minh3</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="E:\UWPWeather\UWPWeather\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="e:\UWPWeather\UWPWeather\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-29T17:16:30.021</Modified>
+      <Modified>2018-05-18T11:53:58.532</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\bin\x86\Debug\UWPWeather.exe">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\bin\x86\Debug\UWPWeather.exe">
       <PackagePath>entrypoint\UWPWeather.exe</PackagePath>
-      <Modified>2018-04-29T17:16:29.628</Modified>
+      <Modified>2018-05-18T11:53:52.442</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\minh3\.nuget\packages\microsoft.csharp\4.3.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -519,150 +519,343 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T16:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\Square50x50.scale-100.png">
-      <PackagePath>Assets\Square50x50.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-29T16:47:03.590</Modified>
+    <AppxPackagedFile Include="e:\UWPWeather\BackgroundTasks\bin\x86\Debug\BackgroundTasks.winmd">
+      <PackagePath>BackgroundTasks.winmd</PackagePath>
+      <Modified>2018-05-18T11:48:49.592</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\Square44x44.scale-100.png">
-      <PackagePath>Assets\Square44x44.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-29T16:46:16.076</Modified>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\02d.png">
+      <PackagePath>Assets\02d.png</PackagePath>
+      <Modified>2018-05-18T11:28:50.022</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\Square150x150.scale-100.png">
-      <PackagePath>Assets\Square150x150.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-29T16:44:53.342</Modified>
+      <Modified>2018-05-18T11:29:07.529</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\Splash.scale-100.png">
-      <PackagePath>Assets\Splash.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-29T16:35:52.536</Modified>
+      <Modified>2018-05-18T11:29:07.565</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\Weather\01d.png">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:07.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:07.711</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:07.926</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:06.960</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:06.979</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:06.998</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:07.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:07.071</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:08.312</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:08.372</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:08.456</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:09.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:07.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:07.124</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:07.154</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:07.244</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:08.188</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:08.272</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:08.222</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:08.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:07.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:07.974</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:08.012</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:08.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:08.084</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:08.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:08.170</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:08.124</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:08.142</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:09.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:09.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:09.091</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:09.123</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:09.148</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Weather\01d.png">
       <PackagePath>Assets\Weather\01d.png</PackagePath>
-      <Modified>2018-04-29T16:32:29.642</Modified>
+      <Modified>2018-05-18T11:28:44.383</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\Weather\01n.png">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Weather\01n.png">
       <PackagePath>Assets\Weather\01n.png</PackagePath>
-      <Modified>2018-04-29T16:32:30.008</Modified>
+      <Modified>2018-05-18T11:28:44.389</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\Weather\02d.png">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Weather\02d.png">
       <PackagePath>Assets\Weather\02d.png</PackagePath>
-      <Modified>2018-04-29T16:32:30.010</Modified>
+      <Modified>2018-05-18T11:28:44.394</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\Weather\02n.png">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Weather\02n.png">
       <PackagePath>Assets\Weather\02n.png</PackagePath>
-      <Modified>2018-04-29T16:32:30.012</Modified>
+      <Modified>2018-05-18T11:28:44.398</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\Weather\03d.png">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Weather\03d.png">
       <PackagePath>Assets\Weather\03d.png</PackagePath>
-      <Modified>2018-04-29T16:32:30.014</Modified>
+      <Modified>2018-05-18T11:28:44.402</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\Weather\03n.png">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Weather\03n.png">
       <PackagePath>Assets\Weather\03n.png</PackagePath>
-      <Modified>2018-04-29T16:32:30.017</Modified>
+      <Modified>2018-05-18T11:28:44.407</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\Weather\04d.png">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Weather\04d.png">
       <PackagePath>Assets\Weather\04d.png</PackagePath>
-      <Modified>2018-04-29T16:32:30.019</Modified>
+      <Modified>2018-05-18T11:28:44.411</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\Weather\04n.png">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Weather\04n.png">
       <PackagePath>Assets\Weather\04n.png</PackagePath>
-      <Modified>2018-04-29T16:32:30.022</Modified>
+      <Modified>2018-05-18T11:28:44.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\Weather\09d.png">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Weather\09d.png">
       <PackagePath>Assets\Weather\09d.png</PackagePath>
-      <Modified>2018-04-29T16:32:30.024</Modified>
+      <Modified>2018-05-18T11:28:44.421</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\Weather\09n.png">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Weather\09n.png">
       <PackagePath>Assets\Weather\09n.png</PackagePath>
-      <Modified>2018-04-29T16:32:30.026</Modified>
+      <Modified>2018-05-18T11:28:44.428</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\Weather\10d.png">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Weather\10d.png">
       <PackagePath>Assets\Weather\10d.png</PackagePath>
-      <Modified>2018-04-29T16:32:30.028</Modified>
+      <Modified>2018-05-18T11:28:44.433</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\Weather\10n.png">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Weather\10n.png">
       <PackagePath>Assets\Weather\10n.png</PackagePath>
-      <Modified>2018-04-29T16:32:30.031</Modified>
+      <Modified>2018-05-18T11:28:44.437</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\Weather\11d.png">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Weather\11d.png">
       <PackagePath>Assets\Weather\11d.png</PackagePath>
-      <Modified>2018-04-29T16:32:30.033</Modified>
+      <Modified>2018-05-18T11:28:44.441</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\Weather\11n.png">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Weather\11n.png">
       <PackagePath>Assets\Weather\11n.png</PackagePath>
-      <Modified>2018-04-29T16:32:30.037</Modified>
+      <Modified>2018-05-18T11:28:44.446</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\Weather\13d.png">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Weather\13d.png">
       <PackagePath>Assets\Weather\13d.png</PackagePath>
-      <Modified>2018-04-29T16:32:30.039</Modified>
+      <Modified>2018-05-18T11:28:44.450</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\Weather\13n.png">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Weather\13n.png">
       <PackagePath>Assets\Weather\13n.png</PackagePath>
-      <Modified>2018-04-29T16:32:30.041</Modified>
+      <Modified>2018-05-18T11:28:44.454</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\Weather\50d.png">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Weather\50d.png">
       <PackagePath>Assets\Weather\50d.png</PackagePath>
-      <Modified>2018-04-29T16:32:30.043</Modified>
+      <Modified>2018-05-18T11:28:44.459</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\Weather\50n.png">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Weather\50n.png">
       <PackagePath>Assets\Weather\50n.png</PackagePath>
-      <Modified>2018-04-29T16:32:30.044</Modified>
+      <Modified>2018-05-18T11:28:44.464</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:07.267</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:07.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:07.338</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:07.500</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2018-03-29T10:00:46.945</Modified>
+      <Modified>2018-05-06T04:16:39.148</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:08.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <Modified>2018-03-29T10:00:46.945</Modified>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:07.181</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <Modified>2018-03-29T10:00:46.945</Modified>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:08.042</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <Modified>2018-03-29T10:00:46.945</Modified>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:08.205</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <Modified>2018-03-29T10:00:46.945</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
-      <Modified>2018-03-29T10:00:46.945</Modified>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-18T11:29:07.377</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2018-04-29T15:02:57.326</Modified>
+      <Modified>2018-05-18T10:28:26.497</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\bin\x86\Debug\UWPWeather.xr.xml">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\bin\x86\Debug\UWPWeather.xr.xml">
       <PackagePath>UWPWeather.xr.xml</PackagePath>
-      <Modified>2018-04-29T17:15:21.222</Modified>
+      <Modified>2018-05-18T11:33:16.404</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-04-29T15:44:20.921</Modified>
+      <Modified>2018-05-18T11:53:52.225</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-04-29T17:16:29.420</Modified>
+      <Modified>2018-05-18T11:33:16.482</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17110.0\Windows.winmd">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2018-02-25T02:52:04.000</Modified>
+      <Modified>2018-04-19T15:01:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-29T16:47:58.674</Modified>
+      <Modified>2018-05-18T11:53:53.308</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\UWPWeather\UWPWeather\bin\x86\Debug\Core\UWPWeather.exe">
+    <AppxPackagedFile Include="e:\UWPWeather\UWPWeather\bin\x86\Debug\Core\UWPWeather.exe">
       <PackagePath>UWPWeather.exe</PackagePath>
-      <Modified>2018-04-29T17:16:30.018</Modified>
+      <Modified>2018-05-18T11:53:58.528</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
@@ -695,27 +888,27 @@
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.26316.0</Version>
+      <Version>14.0.26428.1</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26316.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26428.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.26316.0</Version>
+      <Version>14.0.26428.1</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26316.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26428.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.26316.0</Version>
+      <Version>14.0.26428.1</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26316.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26428.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>

@@ -1,1 +1,2 @@
-E:\UWPWeather\UWPWeather\UWPWeather.csproj;x86
+e:\UWPWeather\BackgroundTasks\BackgroundTasks.csproj;x86
+e:\UWPWeather\UWPWeather\UWPWeather.csproj;x86
